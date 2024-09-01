@@ -11,3 +11,7 @@
 Esse projeto foi desenvolvido com HTML, CSS e JavaScript
 
 Desafio proposto por [rocketseat](https://https://www.rocketseat.com.br/)
+
+## 🚀 Projeto
+
+andrey00005.github.io/focustimer2/
