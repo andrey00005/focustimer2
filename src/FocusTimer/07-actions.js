@@ -71,14 +71,14 @@ export function agua() {
 function toggleSound(sound, index) {
   const square = el.squares.querySelectorAll('.square')[index];
 
-  // Desativa todos os outros botões e seus sons
-  // el.squares.querySelectorAll('.square').forEach((s, i) => {
-  //   const otherSound = sounds[Object.keys(sounds)[i]];
-  //   if (i !== index) {
-  //     s.classList.remove('music-on');
-  //     otherSound.pause();
-  //   }
-  // });
+  Desativa todos os outros botões e seus sons
+  el.squares.querySelectorAll('.square').forEach((s, i) => {
+    const otherSound = sounds[Object.keys(sounds)[i]];
+    if (i !== index) {
+      s.classList.remove('music-on');
+      otherSound.pause();
+    }
+  });
 
   // Ativa o botão atual e a classe 'music-on'
   state.isMute = square.classList.toggle('music-on');
