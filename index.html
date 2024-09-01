@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Temporizador estilo pomodoro">
+  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="./src/01-main.js" defer></script>
+  <title>FocusTimer - Pomodoro</title>
+</head>
+
+<body>
+  <div id="app">
+
+    <div class="teste">
+
+      <button id="toggle-mode">
+        <span class="sr-only"> Ativar light mode </span>
+        <i class="ph-bold ph-sun sol"></i>
+        <i class="ph-bold ph-moon"></i>
+      </button>
+
+      <section id="timer" class="flex">
+        <span id="minutes"> 00 </span>
+        <span> : </span>
+        <span id="seconds"> 00 </span>
+      </section>
+
+      <section id="controls" class="flex">
+
+        <button class="ph ph-play-circle secondary" data-action="toggleRunning">
+          <span class="sr-only"> Iniciar contador </span>
+        </button>
+
+        <button class="ph ph-pause-circle" data-action="toggleRunning">
+          <span class="sr-only"> Pausar contador </span>
+        </button>
+
+        <button class="ph ph-stop-circle secondary" data-action="reset">
+          <span class="sr-only"> Parar contador </span>
+        </button>
+
+        <button class="ph ph-plus-circle secondary" data-action="mais">
+          <span class="sr-only"> aumentar 5 minutos </span>
+        </button>
+
+        <button class="ph ph-minus-circle secondary" data-action="menos">
+          <span class="sr-only"> reduzir 5 minutos </span>
+        </button>
+        
+      </section>
+    </div>
+
+    <div class="teste"> 
+      <section id="squares">
+        <div class="square ph ph-tree" data-action="arvore"></div>
+        <div class="square ph ph-cloud-snow" data-action="nuvem"></div>
+        <div class="square ph ph-house" data-action="casa"></div>
+        <div class="square ph ph-drop" data-action="agua"></div>
+        <!-- <div class="ph ph-lock-key cadeado"><span class="circle"></span></div> -->
+      </section>
+    </div>
+  </div>
+</body>
+
+
+<!-- foi usado para os icones desse projeto o site phosphor icons -->
+
+</html>
