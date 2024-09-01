@@ -4,7 +4,7 @@
 <br>
 
 
-![apresentacão do desafio](assets/desktop.png)
+![apresentacão do desafio](assets/desktop.PNG)
 
 ## 🚀 Tecnologias
 
