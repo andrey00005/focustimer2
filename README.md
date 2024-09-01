@@ -14,4 +14,4 @@ Desafio proposto por [rocketseat](https://https://www.rocketseat.com.br/)
 
 ## 🚀 Projeto
 
-[Focustimer](http://andrey00005.github.io/focustimer2/) _(abre em nova aba)_
+[Focustimer](http://andrey00005.github.io/focustimer2/)
