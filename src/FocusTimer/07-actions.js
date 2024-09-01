@@ -71,7 +71,7 @@ export function agua() {
 function toggleSound(sound, index) {
   const square = el.squares.querySelectorAll('.square')[index];
 
-  Desativa todos os outros botões e seus sons
+  // Desativa todos os outros botões e seus sons
   el.squares.querySelectorAll('.square').forEach((s, i) => {
     const otherSound = sounds[Object.keys(sounds)[i]];
     if (i !== index) {
