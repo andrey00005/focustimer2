@@ -1,7 +1,4 @@
-# desafio1-JavaScript
-
-## 1º desafio de javascript do programa explorer
-<br>
+# desafio1-focustimer2
 
 
 ![apresentacão do desafio](assets/desktopComMobile.PNG)
