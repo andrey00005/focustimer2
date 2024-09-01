@@ -5,6 +5,7 @@
 
 
 ![apresentacão do desafio](assets/desktop.PNG)
+![apresentacão do desafio](assets/mobile.PNG)
 
 ## 🚀 Tecnologias
 
